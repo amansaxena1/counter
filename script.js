@@ -9,7 +9,7 @@ document.getElementById("info").style.display = "none";
 
 
 async function dataload() {
-  await fetch("https://codecoffee-eight.vercel.app/counter/aman_saxena_01/amansaxena1/amansaxena01/amansaxena1/amansaxena1/amansaxena1/7f701168-4427-434e-9f2c-98c4bf09cb3b")
+  await fetch("https://codecoffee-eight.vercel.app/counter")
     .then((res) => res.json())
     .then((data) => {
       codechef = data.ccquestion;
